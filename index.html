@@ -49,6 +49,9 @@
                     <li>
                         <a class="page-scroll" href="#aluno">Aluno</a>
                     </li>
+                    <li>
+                       <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
 
                 </ul>
             </div>
@@ -94,6 +97,36 @@
         </div>
     </section>
 
+      <section id="contato">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center ">
+              <h2>contato</h2>
+              <hr>
+            </div>
+            <div class="col-sm-12 text-center">
+              <form>
+                <p>
+                  <label for="nomeDigitado">NOME:</label>
+                  <input class="form-control" type="text" id="nomeDigitado">
+                 </p>
+                 <p>
+                  <label for="emailDigitado">E-MAIL</label>
+                  <input class="form-control" type="email" id="emailDigitado">
+                 </p>
+                 <p>
+                  <label for="mensagemDigitada">MENSAGEM</label>
+                  <textarea class="form-control" id="mensagemDigitada"></textarea>
+                 </p>
+                 <p>
+                   <input  class="btn btn-primary" onclick="enviar()" type="submit"  value="Enviar">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -101,6 +134,7 @@
             </div>
         </div>
     </footer>
+     <script src="js/arquivo.js"></script>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
